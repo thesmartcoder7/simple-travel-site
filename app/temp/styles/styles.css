@@ -1,0 +1,12 @@
+body {
+    color: #2f5572;
+    padding: 5rem;
+    margin: 5rem;
+    -moz-columns: 10rem 2;
+         columns: 10rem 2;
+}
+
+.box a {
+        display: block;
+        padding: 5rem;
+    }

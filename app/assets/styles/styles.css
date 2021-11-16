@@ -1,0 +1,15 @@
+$blueGreen: #2f5572;
+
+body {
+    color: $blueGreen;
+    padding: 5rem;
+    margin: 5rem;
+    columns: 10rem 2;
+}
+
+.box {
+    a {
+        display: block;
+        padding: 5rem;
+    }
+}
