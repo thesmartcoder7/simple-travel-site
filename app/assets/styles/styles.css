@@ -1,15 +1,6 @@
-$blueGreen: #2f5572;
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_large-hero";
+@import "modules/_btn";
 
-body {
-    color: $blueGreen;
-    padding: 5rem;
-    margin: 5rem;
-    columns: 10rem 2;
-}
-
-.box {
-    a {
-        display: block;
-        padding: 5rem;
-    }
-}
