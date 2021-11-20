@@ -453,9 +453,25 @@ img {
     margin-right: auto;
 }
 
+.wrapper--medium {
+        max-width: 976px;
+    }
+
+.wrapper .wrapper {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
 .page-section {
-    padding: 4.5rem 0;
+    padding: 1.2rem 0;
 }
+
+@media (min-width: 800px) {
+
+.page-section {
+        padding: 4.5rem 0;
+}
+    }
 
 .page-section--blue {
         background-color: #2f5572;
@@ -464,9 +480,16 @@ img {
 
 .headline {
     font-weight: 300;
-    font-size: 2.875rem;
+    font-size: 1.9rem;
     color: #2f5572;
 }
+
+@media (min-width: 530px) {
+
+.headline {
+        font-size: 2.875rem;
+}
+    }
 
 .headline--centered {
         text-align: center;
@@ -477,7 +500,14 @@ img {
     }
 
 .headline--small {
-        font-size: 1.875rem;
+        font-size: 1.2rem;
+    }
+
+@media (min-width: 530px) {
+
+.headline--small {
+            font-size: 1.875rem
+    }
     }
 
 .headline--narrow {
