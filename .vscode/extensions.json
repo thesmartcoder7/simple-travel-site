@@ -1,6 +1,8 @@
 {
     "recommendations": [
         "ricard.postcss",
-        "cpylua.language-postcss"
+        "cpylua.language-postcss",
+        "mhmadhamster.postcss-language",
+        "esbenp.prettier-vscode"
     ]
 }
