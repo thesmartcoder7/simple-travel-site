@@ -15,3 +15,11 @@
         @mixin-content;
     }
 }
+
+@define_mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
