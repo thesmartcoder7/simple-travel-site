@@ -576,7 +576,14 @@ a {
     }
 
 .row--gutters-large > div {
-        padding-right: 100px;
+        padding-right: 65px;
+    }
+
+@media (min-width: 530px) {
+
+.row--gutters-large > div {
+            padding-right: 100px
+    }
     }
 
 .row__b-margin-until-medium {

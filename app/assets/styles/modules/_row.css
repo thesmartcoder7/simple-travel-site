@@ -19,7 +19,10 @@
     }
 
     &--gutters-large > div {
-        padding-right: 100px;
+        padding-right: 65px;
+        @mixin atSmall {
+            padding-right: 100px;
+        }
     }
 
     &__b-margin-until-medium {
