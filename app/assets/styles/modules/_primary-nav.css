@@ -1,0 +1,28 @@
+.primary-nav {
+    &--pull-right {
+        float: right;
+    }
+
+    ul {
+        margin: 0;
+        padding: 12px 0;
+
+        &::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+
+    li {
+        list-style: none;
+        float: left;
+        padding-right: 20px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+    }
+}
